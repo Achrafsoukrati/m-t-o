@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #6db3f2, #1c92d2);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background: blueviolet;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#citySelect {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+}
+
+#result {
+    padding: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+select:focus, input:focus {
+    border-color: #0056b3;
+}
+
+#meteo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
